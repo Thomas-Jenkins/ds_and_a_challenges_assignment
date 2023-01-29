@@ -2,12 +2,16 @@
 
 //To do this, I plan to loop through the alphabet constant, which I will declare to be the lowercase alphabet, and the word provided, then find the index of the letter in the alphabet constant and compare it to the index of the codes constant. Using an array of the codes index I will pull the individual code into an array with the others and join the array. Once that is done for each word in the input, I will loop through them and if the joined codes match I will increment a variable. Though, potentially i will need to add additional logic to create a dynamic number of variables depending on the number of matching codes.
 
+
 const codes = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
 
 function uniqueWords(words) {
+    //Declare a variable of the alphabet to use as a letter index. 
     const alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    //Declare Two variables. One to take the words array and break it into several arrays nested into one. And one to store the morse code of the words as a set of arrays nested in an array.
     let dividedArray = [];
     let codeFromWords = [];
+    //loop through the words array. 
     for (let i = 0; i < words.length; ++i) {
         let letterToNumberArray = [];
         for (let t = 0; t < words[i].length; ++t) {
