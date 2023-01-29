@@ -1,0 +1,19 @@
+{
+  "name": "ds_and_a_challenges_assignment",
+  "version": "1.0.0",
+  "description": "An assignment from alchemy to complete code challenges in the terminal using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-Jenkins/ds_and_a_challenges_assignment.git"
+  },
+  "author": "Thomas P Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-Jenkins/ds_and_a_challenges_assignment/issues"
+  },
+  "homepage": "https://github.com/Thomas-Jenkins/ds_and_a_challenges_assignment#readme"
+}
