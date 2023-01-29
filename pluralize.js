@@ -27,7 +27,7 @@ function pluralize(words) {
 
 console.log('Test Case One: ["cow", "pig", "cow", "cow"]. Expected: [ \'cows\', \'pig\' ], Output: ', pluralize(["cow", "pig", "cow", "cow"]));
 console.log('Test Case Two: ["table", "table", "table"]. Expected: [ \'tables\'], Output: ', pluralize(["table", "table", "table"]));
-console.log('Test Case Two: ["chair", "pencil", "arm"]. Expected: [ \'chair\', \'pencil\', \'arm\'], Output: ', pluralize(["chair", "pencil", "arm"]));
+console.log('Test Case Three: ["chair", "pencil", "arm"]. Expected: [ \'chair\', \'pencil\', \'arm\'], Output: ', pluralize(["chair", "pencil", "arm"]));
 
 
 
